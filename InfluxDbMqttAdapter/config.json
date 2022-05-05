@@ -1,0 +1,45 @@
+{
+    "influxdb": {
+        "host": "localhost",
+        "port": 8086,
+        "user": "admin",
+        "password": "****",
+        "database": "filterdb"
+    },
+    "mqtt": {
+        "host": "localhost",
+        "port": 1883,
+        "user": "influxdb_mqtt_adapter",
+        "password": "****",
+        "debug": true
+    },
+    "matches": [
+        {
+            "from": "/filter/f_123/pressure_in",
+            "set_time": true,
+            "to": {
+                "measurement": "pressure_in",
+                "tags": {
+                    "filter_id": "f_123",
+                    "unit": "bar"
+                },
+                "fields": {
+                    "value": 0
+                }
+            }
+        },
+        {
+            "from": "/conditionmonitor/f_123/percentage",
+            "set_time": false,
+            "to": {
+                "measurement": "percentage",
+                "tags": {
+                    "filter_id": "f_123"
+                },
+                "fields": {
+                    "value": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"mqtt": {"host": "10.3.2.166", "port": 1883, "subs": ["sensors/pressure/demo_filter_123"]}, "monitor": {"mode": "INIT_AVG", "condition": {"mode": "simple", "avg": 1.5266666666666666, "avg_n_samples": 3, "avg_delta_pos": 0.5, "avg_delta_neg": 0.5}}}
