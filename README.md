@@ -14,3 +14,9 @@ In the Cube, the sensor values can be visualized on a 5-inch display.
 ## Sourcers:
 The IoT Platform:
 https://thingsboard.io/
+
+## Smart Filter Cube
+
+![SFC190319_001](https://user-images.githubusercontent.com/47817165/167089367-cf96f437-eb5c-40a6-b049-f859af2001bf.jpg)
+
+![SFC190319_003](https://user-images.githubusercontent.com/47817165/167089390-1bb64d92-1d91-40dd-886e-e1ac7a820d25.jpg)
